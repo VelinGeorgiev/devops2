@@ -7,6 +7,6 @@ param(
 
 # Install pnp powershell module on your build agent
 
-Connect-PnPOnline https://velingeorgiev.sharepoint.com/sites/devops10 -AccessToken $accessToken
+Connect-PnPOnline $site -AccessToken $accessToken
 
 Add-PnPApp -Path "./_SPFx build/SPFx sppkg/react-jest-testing.sppkg" -Scope $scope -Publish
