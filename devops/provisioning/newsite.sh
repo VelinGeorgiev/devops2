@@ -1,6 +1,6 @@
 #o365 spo login https://velingeorgiev-admin.sharepoint.com
 
-SITE=https://velingeorgiev.sharepoint.com/sites/devops4 
+SITE=https://velingeorgiev.sharepoint.com/sites/devops5 
 
 o365 spo site add --type CommunicationSite --url $SITE --title devops
 
