@@ -20,7 +20,6 @@ steps:
   displayName: 'Run npm install'
 
 - script: |
-    gulp clean
     gulp bundle --ship
     gulp package-solution --ship
   displayName: 'Build and package the solution'
