@@ -5,7 +5,7 @@ param(
     $scope
 ) 
 
-# Install pnp powershell module on your build agent
+# Install pnp powershell module on your release agent/vm
 
 Connect-PnPOnline $site -AccessToken $accessToken
 
